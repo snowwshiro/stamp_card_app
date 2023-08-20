@@ -5,7 +5,7 @@ import { Footer } from '@/components/Footer'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'スタンプぼん',
+  title: 'スタンプぽん',
   description: 'スタンプをポンできるアプリです',
 }
 
