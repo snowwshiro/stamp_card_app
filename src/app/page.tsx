@@ -1,5 +1,6 @@
-import { CardSection } from '@/components/CardSection'
-import { TitleHeaderSection } from '@/components/TitleHeaderSection'
+import { Toaster } from 'react-hot-toast';
+
+import { CardSection } from '@/components/CardSection';
 
 export default function Home() {
   return (
@@ -9,5 +10,7 @@ export default function Home() {
         <CardSection />
       </div>
     </main>
+      <Toaster />
+    </>
   )
 }

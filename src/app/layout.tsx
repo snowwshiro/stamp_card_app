@@ -1,7 +1,5 @@
 import type { Metadata } from 'next'
 
-import { Toaster } from 'react-hot-toast'
-
 import { Footer } from '@/components/Footer'
 
 import './globals.css'
@@ -18,7 +16,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <Footer />
       </body>
-      <Toaster />
     </html>
   )
 }
